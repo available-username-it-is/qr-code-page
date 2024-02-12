@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: hsl(212, 45%, 89%);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    padding: 1.7em;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    max-width: 35em;
+}
+
+img {
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 1.5rem;
+}
+
+.card-heading {
+    font-size: 2.5rem;
+    margin-bottom: 0.8em;
+    color: hsl(218, 44%, 22%);
+}
+
+@media (max-width: 630px) {
+    section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 580px) {
+    p {
+        font-size: 1.5rem;
+    }
+
+    .card-heading {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 534px) {
+    p {
+        font-size: 1.5rem;
+    }
+
+    .card-heading {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 1.2rem;
+    }
+
+    .card-heading {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 425px) {
+    p {
+        font-size: 1rem;
+    }
+
+    .card-heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 395px) {
+    p {
+        font-size: 1rem;
+    }
+
+    .card-heading {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 340px) {
+    p {
+        font-size: 0.8rem;
+    }
+
+    .card-heading {
+        font-size: 1rem;
+    }
+
+    .container {
+        padding: 1em;
+    }
+}
